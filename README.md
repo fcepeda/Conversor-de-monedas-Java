@@ -30,7 +30,7 @@
         <section>
             <h2>Tecnologías Utilizadas 🛠️</h2>
             <ul>
-                <li><strong>Lenguaje:</strong> Java 8 o superior.</li>
+                <li><strong>Lenguaje:</strong> Java 17.</li>
                 <li><strong>API:</strong> <a href="https://www.exchangerate-api.com/" target="_blank">ExchangeRate-API</a> para obtener los tipos de cambio actuales.</li>
                 <li><strong>Clases:</strong>
                     <ul>
@@ -91,16 +91,25 @@ Sea bienvenido/a al Conversor de Moneda =)
  <hr>
         <section>
             <h2>Ejemplo de Uso 📂</h2>
-            <p>A continuación, se muestra un ejemplo de cómo funciona el programa:</p>
+            <p>A continuación, se muestran ejemplos de cómo funciona el programa:</p>
+            <h3>Conversión estándar</h3>
             <pre>
 > Ingrese su elección: 1
 > Ingrese el valor a convertir: 100
 El valor 100[USD] corresponde al valor final de >>> 90000[CLP]
-Historial actualizado: El valor 100[USD] corresponde al valor final de >>> 97565.56[CLP] | 2024-11-26 14:30:45
+Historial actualizado: El valor 100[USD] corresponde al valor final de >>> 90000[CLP] | 2024-11-26 14:30:45
             </pre>
-            <p>En este ejemplo, el usuario selecciona la opción 1 para convertir de USD a CLP e ingresa un valor de 100 dólares. El programa muestra el valor convertido y registra la operación en el historial.</p>
+            <h3>Conversión personalizada ingresando códigos de país</h3>
+            <pre>
+> Ingrese su elección: 5
+> Ingrese el código de moneda del país proveniente: EUR
+> Ingrese el código de moneda del país a convertir: JPY
+> Ingrese el valor a convertir: 50
+El valor 50[EUR] corresponde al valor final de >>> 8000[JPY]
+Historial actualizado: El valor 50[EUR] corresponde al valor final de >>> 8000[JPY] | 2024-11-26 14:32:12
+            </pre>
+            <p>En este caso, el usuario selecciona la opción 5 para realizar una conversión personalizada, ingresa los códigos de moneda <code>EUR</code> (Euro) y <code>JPY</code> (Yen japonés), e indica que desea convertir 50 Euros. El programa muestra el resultado y actualiza el historial.</p>
         </section>
-        <hr>
         <hr>
         <section>
             <h2>Próximos Pasos 🚧</h2>
@@ -114,7 +123,7 @@ Historial actualizado: El valor 100[USD] corresponde al valor final de >>> 97565
             <h2>Contacto 📧</h2>
             <p>Si tienes dudas o sugerencias, no dudes en contactarme:</p>
             <ul>
-                <li><strong>Autor:</strong> Francisco Cepeda</li>
+                <li><strong>Autor:</strong> Francisco Cepeda Venegas (Lhite)</li>
                 <li><strong>Email:</strong> lhite123@gmail.com.com</li>
                 <li><strong>Portafolio:</strong> <a href="https://itch.io/lhite" target="_blank">itch.io/lhite</a></li>
             </ul>
